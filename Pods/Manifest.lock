@@ -1,0 +1,35 @@
+PODS:
+  - Disk (0.6.3)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SwiftResolver (1.0.11)
+  - XCoordinator (1.4.0):
+    - XCoordinator/Core (= 1.4.0)
+  - XCoordinator/Core (1.4.0)
+
+DEPENDENCIES:
+  - Disk
+  - RxCocoa
+  - RxSwift
+  - SwiftResolver
+  - XCoordinator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Disk
+    - RxCocoa
+    - RxSwift
+    - SwiftResolver
+    - XCoordinator
+
+SPEC CHECKSUMS:
+  Disk: 76cccb6fed1c27cd661bbdea7b117d887c2f72e5
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SwiftResolver: ed5339edf4a0f07c3ecde9c83039ad9cbfc05f59
+  XCoordinator: b089c955053b655a72fedfa47137b506e98cefbe
+
+PODFILE CHECKSUM: ac3ede2d6ba222c9d955c484e08ad2ce02ec6936
+
+COCOAPODS: 1.6.1
