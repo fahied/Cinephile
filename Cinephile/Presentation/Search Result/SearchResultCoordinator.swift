@@ -10,7 +10,7 @@ import XCoordinator
 
 enum SearchResultRoute: Route {
     case movies
-    case movieDetail(UInt)
+    case movieDetail(Movie)
 }
 
 class SearchResultCoordinator: NavigationCoordinator<SearchResultRoute> {
@@ -29,7 +29,7 @@ class SearchResultCoordinator: NavigationCoordinator<SearchResultRoute> {
             let viewModel = SearchResultViewModel(router: anyRouter)
             viewController.bind(to: viewModel)
             return .push(viewController)
-        case .movieDetail(let id):
+        case .movieDetail(let movie):
             let viewController = DetailViewController.instantiateFromNib()
             return .push(viewController)
         }

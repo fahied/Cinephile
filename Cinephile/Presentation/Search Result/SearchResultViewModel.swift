@@ -24,7 +24,7 @@ struct SearchResultViewModel {
     }
     
     func showDetails(movie: Movie) {
-        router.trigger(.movieDetail(movie.id))
+        router.trigger(.movieDetail(movie))
     }
     
     func fetchNextPage()  {
